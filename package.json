@@ -1,0 +1,22 @@
+{
+  "name": "generador-charlas-ia",
+  "version": "1.0.0",
+  "description": "Generador automático de charlas de seguridad con IA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["charlas", "seguridad", "IA", "generador"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+npm install
